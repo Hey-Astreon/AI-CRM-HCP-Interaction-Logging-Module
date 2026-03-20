@@ -1,8 +1,23 @@
-backend/.env
+# Sensitive data
 .env
-node_modules
-__pycache__
 backend/.env
-backend/.env
-backend/.env
-.env
+
+# Dependencies
+node_modules/
+frontend/node_modules/
+backend/venv/
+__pycache__/
+*.pyc
+
+# IDEs
+.vscode/
+.idea/
+
+# Database
+*.db
+backend/ai_crm_hcp.db
+
+# Build
+dist/
+build/
+

@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # AI-First CRM HCP Interaction Logging Module
 
 ## Project Overview
@@ -11,7 +10,7 @@ This project is an AI-first prototype for a CRM module designed for pharmaceutic
 -   **Backend:** Python, FastAPI, Uvicorn, SQLAlchemy, Pydantic
 -   **AI Framework:** LangGraph, LangChain
 -   **LLM:** Groq API (`gemma2-9b-it`)
--   **Database:** PostgreSQL
+-   **Database:** PostgreSQL (with SQLite fallback)
 
 ## Architecture Diagram
 ```text
@@ -106,6 +105,4 @@ curl -X POST "http://localhost:8000/ai/chat" \
            "message": "Met Dr Smith today and discussed Product X efficacy. He seemed interested and asked for clinical trial data."
          }'
 ```
-=======
-# ai-crm-hcp-log-interaction
->>>>>>> 385b6d0ca234643df7619381d105d5b36a1460ec
+
